@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Panteon.Monitoring</id>
+    <version>1.0.3.1</version>
+    <title>Panteon.Monitoring</title>
+    <authors>Ziya SARIKAYA</authors>
+    <owners>ziyasal</owners>
+    <iconUrl>https://raw.githubusercontent.com/PanteonProject/panteon-dashboard/master/misc/path4141.png</iconUrl>
+    <licenseUrl>https://github.com/PanteonProject/PanteonMonitoring//blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/PanteonProject/PanteonMonitoring/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+      Panteon Monitoring
+    </description>
+    <summary>
+      Panteon Monitoring
+    </summary>
+    <tags>panteon task job scheduler host monitoring</tags>
+    <copyright />
+    <dependencies>
+      <dependency id="Panteon.Sdk" version="1.1.0.1"  />
+      <dependency id="Dapper" version="1.42"  />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Release\Panteon Monitoring.dll" target="lib\net451\Panteon Monitoring.dll" />
+  </files>
+</package>
